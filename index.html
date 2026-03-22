@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Brava Café Bar — Café Bar · Medellín</title>
+    <meta name="description" content="Luna Brava Café Bar en Laureles, Medellín. Café de especialidad, brunch, coctelería de autor, música en vivo y un ambiente perfecto para compartir, celebrar y volver.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========================================
+         NAVIGATION
+    ========================================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <span class="logo-name">Luna Brava Café Bar</span>
+                <span class="logo-tagline">Café de autor · cocteles de autor · noches memorables</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">Nosotros</a></li>
+                    <li><a href="#offerings" class="nav-link">Carta</a></li>
+                    <li><a href="#promo" class="nav-link">Especial</a></li>
+                    <li><a href="#gallery" class="nav-link">Galería</a></li>
+                    <li><a href="#find-us" class="nav-link">Encuéntranos</a></li>
+                    <li><a href="#contact" class="nav-cta">Reservar ahora</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- ========================================
+         1. HERO — Full impact visual
+    ========================================= -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <img src="assets/hero-bg.jpg" alt="Luna Brava Café Bar — Café Bar en Medellín" class="hero-bg" onerror="this.style.display='none';">
+        <div class="container hero-inner">
+            <p class="hero-label">Café Bar · Laureles, Medellín</p>
+            <h1 class="hero-title">Un lugar donde el café se encuentra con la noche</h1>
+            <p class="hero-subtitle">Disfrute café de especialidad, brunch irresistible, cocteles de autor y una atmósfera única en Laureles. Ideal para una cita, una celebración o una noche que merezca recordarse.</p>
+            <div class="hero-actions">
+                <a href="https://maps.google.com" class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Visítanos
+                </a>
+                <a href="https://wa.me/573001112233?text=Hola,%20quiero%20reservar%20en%20Luna%20Brava%20Café%20Bar" class="btn btn-secondary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                    </svg>
+                    WhatsApp
+                </a>
+            </div>
+            <div class="hero-hours">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Abierto de martes a domingo · 8:00 a.m. a 11:30 p.m.
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         2. NUESTRA HISTORIA
+    ========================================= -->
+    <section class="about" id="about">
+        <div class="container about-inner">
+            <div class="about-image-wrapper">
+                <div class="about-image-container">
+                    <img src="assets/about.jpg" alt="Nuestra historia — {{Luna Brava Café Bar}}" class="about-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+                        </span>
+                        <span class="placeholder-label">Foto del lugar<br><small>about.jpg</small></span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="section-label">Nuestra esencia</p>
+                <h2 class="section-title">Más que un café bar: una experiencia para quedarse</h2>
+                <p class="about-text">Luna Brava nació para ofrecer algo distinto en Medellín: un espacio donde la energía del café de especialidad convive con la elegancia de la coctelería de autor, la calidez del diseño y el placer de compartir sin prisa.</p>
+                <p class="about-text">Aquí cada detalle está pensado para que la visita se sienta especial: sabores memorables, iluminación envolvente, música bien curada y un ambiente que funciona igual de bien para una reunión tranquila en la tarde como para una noche vibrante con amigos.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">☕</span>
+                        <span class="highlight-text">Café de especialidad preparado por baristas expertos</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🍸</span>
+                        <span class="highlight-text">Coctelería creativa con identidad propia</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎶</span>
+                        <span class="highlight-text">Música en vivo y ambiente inolvidable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         3. LO QUE OFRECEMOS
+    ========================================= -->
+    <section class="offerings" id="offerings">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Nuestra carta</p>
+                <h2 class="section-title">Sabores que invitan a volver</h2>
+                <p class="section-intro">Desde desayunos tardíos hasta noches de cocteles y conversación, nuestra carta combina sabor, estética y experiencia.</p>
+            </div>
+            <div class="offerings-grid">
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-1.jpg" alt="Brunch Luna Brava" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-1.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Brunch Luna Brava</h3>
+                        <p class="offering-desc">Tostadas artesanales, huevos especiales, fruta fresca, panadería selecta y bebidas premium para empezar el día con estilo.</p>
+                    </div>
+                </div>
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-2.jpg" alt="Café de especialidad" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-2.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Café de especialidad</h3>
+                        <p class="offering-desc">Espresso, métodos filtrados, bebidas frías y calientes con granos seleccionados para quienes valoran un café con carácter.</p>
+                    </div>
+                </div>
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-3.jpg" alt="Cocteles de autor" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-3.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Cocteles de autor</h3>
+                        <p class="offering-desc">Mezclas exclusivas, presentación impecable y sabores diseñados para convertir cualquier salida en una ocasión memorable.</p>
+                    </div>
+                </div>
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-4.jpg" alt="Noches en vivo" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-4.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Noches en vivo</h3>
+                        <p class="offering-desc">Programación especial con música, sesiones acústicas y eventos temáticos para vivir una experiencia distinta cada semana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         4. ESPECIAL DE LA SEMANA
+    ========================================= -->
+    <section class="promo" id="promo">
+        <div class="container promo-inner">
+            <div class="promo-content">
+                <p class="promo-badge">Especial de la semana</p>
+                <h2 class="promo-title">Jueves de Brava Nights</h2>
+                <p class="promo-desc">Reserve su mesa y disfrute 2 cocteles de autor + tabla para compartir en una noche con música en vivo y ambiente premium.</p>
+                <p class="promo-validity">Válido todos los jueves de 6:00 p.m. a 10:00 p.m. · Cupos por reserva</p>
+                <a href="https://wa.me/573001112233?text=Hola,%20quiero%20reservar%20la%20promoción%20de%20Luna%20Brava" class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                    </svg>
+                    Reserva tu promo
+                </a>
+            </div>
+            <div class="promo-image-container">
+                <img src="assets/promo.jpg" alt="Jueves de Brava Nights" class="promo-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                <div class="image-placeholder">
+                    <span class="placeholder-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+                    </span>
+                    <span class="placeholder-label">Foto promo<br><small>promo.jpg</small></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         5. GALERÍA
+    ========================================= -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Nuestro espacio</p>
+                <h2 class="section-title">Descubra el ambiente que todos quieren fotografiar</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item--large" data-animate>
+                    <img src="assets/galeria-1.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-1.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-2.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-2.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-3.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-3.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-4.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-4.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-5.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-5.jpg</span></div>
+                </div>
+                <div class="gallery-item gallery-item--large" data-animate>
+                    <img src="assets/galeria-6.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-6.jpg</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         6. ENCUÉNTRANOS
+    ========================================= -->
+    <section class="find-us" id="find-us">
+        <div class="container find-us-inner">
+            <div class="find-us-info">
+                <p class="section-label">Ven a visitarnos</p>
+                <h2 class="section-title">Encuéntranos</h2>
+                
+                <div class="info-block">
+                    <div class="info-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                        <p class="info-label">Dirección</p>
+                        <p class="info-text">Calle 33 #76-18<br>Laureles · Medellín, Antioquia</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <div>
+                        <p class="info-label">Horarios</p>
+                        <p class="info-text">Martes a jueves: 8:00 a.m. – 10:00 p.m.<br>Viernes y sábado: 8:00 a.m. – 11:30 p.m.<br>Domingo: 9:00 a.m. – 8:00 p.m.</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    </div>
+                    <div>
+                        <p class="info-label">Contacto</p>
+                        <p class="info-text">+57 300 111 2233</p>
+                    </div>
+                </div>
+
+                <a href="https://maps.google.com" class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Cómo llegar
+                </a>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         7. SÍGUENOS + CTA FINAL
+    ========================================= -->
+    <section class="final-cta" id="contact">
+        <div class="container final-cta-inner">
+            <div class="social-section">
+                <p class="section-label">Síguenos</p>
+                <h2 class="section-title">Síguenos y descubre lo que pasa en Luna Brava</h2>
+                <p class="social-text">Nuevos platos, cocteles de temporada, música en vivo, eventos especiales y el ambiente que hace de cada visita un plan para repetir.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/lunabravacafebar" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        @lunabravacafebar
+                    </a>
+                    <a href="https://www.tiktok.com/@lunabravacafebar" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.52a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.44V13a8.16 8.16 0 005.58 2.2V11.7a4.85 4.85 0 01-3.77-1.24V6.69h3.77z"/></svg>
+                        @lunabravacafebar
+                    </a>
+                    <a href="https://www.facebook.com/lunabravacafebar" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        Luna Brava Café Bar
+                    </a>
+                </div>
+            </div>
+            <div class="cta-section">
+                <div class="cta-card">
+                    <h3 class="cta-card-title">Reserve su mesa y viva la experiencia Luna Brava</h3>
+                    <p class="cta-card-text">Ya sea para un brunch especial, una cita, una celebración o una noche entre amigos, en Luna Brava siempre hay un buen motivo para volver.</p>
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/573001112233?text=Hola,%20quiero%20reservar%20en%20Luna%20Brava%20Café%20Bar" class="btn btn-primary" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                            Escríbenos por WhatsApp
+                        </a>
+                        <a href="https://maps.google.com" class="btn btn-secondary" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Cómo llegar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         8. FOOTER
+    ========================================= -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="footer-name">{{Luna Brava Café Bar}}</span>
+                <span class="footer-tagline">Café de autor · cocteles de autor · noches memorables</span>
+            </div>
+            <div class="footer-contact">
+                <p class="footer-heading">Contacto</p>
+                <a href="https://wa.me/573001112233" class="footer-link" target="_blank" rel="noopener">WhatsApp: +57 300 111 2233</a>
+                <a href="https://instagram.com/lunabravacafebar" class="footer-link" target="_blank" rel="noopener">Instagram: @lunabravacafebar</a>
+            </div>
+            <div class="footer-location">
+                <p class="footer-heading">Ubicación</p>
+                <p class="footer-address">
+                    Calle 33 #76-18<br>
+                    Laureles · Medellín, Antioquia
+                </p>
+                <p class="footer-hours">Abierto de martes a domingo · 8:00 a.m. a 11:30 p.m.</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© <span id="currentYear"></span> {{Luna Brava Café Bar}}. Todos los derechos reservados.</p>
+            <p class="footer-credit">Sitio web por <a href="https://wa.me/573005171856" target="_blank" rel="noopener">Step Up Digital Solutions</a></p>
+        </div>
+    </footer>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
